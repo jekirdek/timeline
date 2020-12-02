@@ -1,2 +1,2 @@
 # timeline
-displaying hours of work
+Display hours of work as SVG format
