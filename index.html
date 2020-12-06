@@ -7,14 +7,14 @@
     </head>
     <body>
 
-        <div id="drawing" style="margin-left: 20px;"></div>
+        <div id="mySVGArea" style="margin-left: 20px;"></div>
 
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/svg.js/2.7.1/svg.min.js"></script>
         <script src="timeline.js"></script>
         <script>
             
-            timeline({xAxis:1200});
+            timeline('mySVGArea', {xAxis:1500});
 
             let popOverSettings = {
                 placement: 'top',
