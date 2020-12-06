@@ -2,4 +2,4 @@
 Display hours of work as SVG format
 
 
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/screenshot.png?raw=true)
+![alt text](https://github.com/jekirdek/timeline/blob/main/screenshot.png?raw=true)
