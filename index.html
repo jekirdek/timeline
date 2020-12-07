@@ -14,7 +14,35 @@
         <script src="timeline.js"></script>
         <script>
             
-            timeline('mySVGArea', {xAxis:1500});
+            timeline(
+                'mySVGArea', 
+                {xAxis:1400, 
+                    data : [
+                        {
+                            text : ["Urfa", "Ismail", "Ibrahim"],
+                            jobs: [
+                                {hours: "10:15-10:45", explanation: "job 1 - brushing teeth"},
+                                {hours: "11:15-11:30", explanation: "job 2 - take coffee"},
+                                {hours: "11:45-12:30", explanation: "job 3 - check mails"}
+                            ]
+                        },
+                        {
+                            text : ["Izmir", "Cihan", "Emin Feyzi"],
+                            jobs: [
+                                {hours: "09:40-10:22", explanation: "job 4 - take a Turkish bagel"},
+                                {hours: "11:15-11:30", explanation: "job 5 - take coffee"}
+                            ]
+                        },
+                        {
+                            text : ["Maras", "Feyzullah", "Ali"],
+                            jobs: [
+                                {hours: "08:20-12:22", explanation: "job 6 - working hard"},
+                                {hours: "13:20-14:59", explanation: "job 7 - resting"}
+                            ]
+                        }
+                    ]
+                }
+            );
 
             let popOverSettings = {
                 placement: 'top',
